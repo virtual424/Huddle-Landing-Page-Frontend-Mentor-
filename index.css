@@ -1,92 +1,175 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-:root{
-    --Pink: hsl(322, 100%, 66%);
-    --LightPink: hsl(321, 100%, 78%);
-    --LightRed: hsl(0, 100%, 63%);
-    --VeryDarkCyan: hsl(192, 100%, 9%);
-    --VeryPaleBlue: hsl(207, 100%, 98%);
+:root {
+  --Pink: hsl(322, 100%, 66%);
+  --LightPink: hsl(321, 100%, 78%);
+  --LightRed: hsl(0, 100%, 63%);
+  --VeryDarkCyan: hsl(192, 100%, 9%);
+  --VeryPaleBlue: hsl(207, 100%, 98%);
 }
 
-body{
-    background-color: var(--VeryPaleBlue);
+body {
+  background-color: var(--VeryPaleBlue);
 }
 
-.heading{
-    text-transform: capitalize;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 1.7rem;
-    font-weight: 750;
+.heading {
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.7rem;
+  font-weight: 750;
+  margin: 0;
 }
 
-.content{
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 1.1rem;
-    line-height: 1.5em;
-    margin: 1.6em 0;
-    font-weight: 600;
+main {
+  padding: 5.5em 2.4em;
 }
 
-
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.content {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 0.8rem;
+  line-height: 1.5em;
+  margin: 1.6em 0;
+  font-weight: 600;
 }
 
-img{
-    max-width: 100%;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.logo{
-    max-width: 150px;
+img {
+  max-width: 100%;
 }
 
-.navbar{
-    padding: 2em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.logo {
+  max-width: 150px;
 }
 
-.btn-secondary{
-    background-color: white;
-    color: var(--Pink);
-    border: 1px solid var(--Pink);
-    padding: 0.6em 1.7em;
-    border-radius: 1.9em;
+.navbar {
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.btn-primary{
-    background-color: var(--Pink);
-    color: white;
-    border: 0;
-    padding: 1.2em;
-    width: 70%;
-    font-weight: 600;
-    font-size: 1rem;
-    border-radius: 1.9em;
-    margin: 2em 0;
+.btn-secondary {
+  background-color: white;
+  color: var(--Pink);
+  border: 1px solid var(--Pink);
+  padding: 0.6em 1.7em;
+  border-radius: 1.9em;
 }
 
-.hero{
-    padding: 5.5em 2.4em;
+.btn-primary {
+  background-color: var(--Pink);
+  color: white;
+  border: 0;
+  padding: 1em;
+  width: 70%;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border-radius: 1.9em;
+  margin: 2em 0;
 }
 
-.hero > h1{
-    font-size: 2rem;
+.illustration {
+  margin: 6em 0;
+  width: 90%;
 }
 
-.mockups{
-   margin: 6em 0;
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3em;
 }
 
+.icon {
+  max-width: 20%;
+  align-self: flex-start;
+}
 
+.results > .heading {
+  font-size: 4rem;
+}
+
+.results > .content {
+  color: grey;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  margin-top: 0.5em;
+}
+
+.features {
+  background-color: var(--VeryPaleBlue);
+  margin: 15em 0;
+}
+
+.features > .illustration {
+  margin-bottom: 7em;
+}
+
+.features > .heading {
+  font-size: 1.3rem;
+}
+
+.end {
+  margin: 20em 0 15em 0;
+}
+
+.end > .heading {
+  margin-bottom: 0.5em;
+}
+
+footer {
+  background-color: var(--VeryDarkCyan);
+  color: var(--VeryPaleBlue);
+  padding: 1.5em;
+}
+
+.newsletter {
+  padding-top: 6em;
+}
+
+.newsletter.container {
+  align-items: flex-start;
+  text-align: start;
+}
+
+.newsletter > .heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.newsletter > .content {
+  font-size: 0.9rem;
+  margin-bottom: 2em;
+}
+
+.newsletter > .input {
+  width: 100%;
+  padding: 1.2em;
+  border-radius: 0.7em;
+}
+
+.newsletter > .btn-primary {
+  align-self: flex-end;
+  width: 45%;
+  margin-top: 1.5em;
+  border-radius: 0.3rem;
+  padding: 1em;
+  font-size: 1rem;
+}
+
+.logo2 {
+  color: var(--VeryPaleBlue);
+}

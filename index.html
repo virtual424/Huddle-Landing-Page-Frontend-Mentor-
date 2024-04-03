@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./index.css">
-  <title>Frontend Mentor | Huddle landing page with curved sections</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  </head>
+  <body>
     <nav class="navbar">
       <div class="logo">
-        <img src="./images/logo.svg" alt="logo">
+        <img src="./images/logo.svg" alt="logo" />
       </div>
       <button class="btn-secondary">Try It Free</button>
     </nav>
@@ -22,14 +29,104 @@
       <section class="hero container">
         <h1 class="heading">Build the community your fans will love</h1>
         <p class="content">
-          Huddle re-imagines the way we build communities. You have a voice, but so does 
-          your audience. Create connections with your users as you engage in genuine discussion.
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users
+          as you engage in genuine discussion.
         </p>
-        <button class="btn-primary">Get Started For Free</button>  
-        <div class="mockups">
-          <img src="./images/screen-mockups.svg" alt="heroimage">
-        </div>     
+        <button class="btn-primary">Get Started For Free</button>
+        <div class="illustration">
+          <img src="./images/screen-mockups.svg" alt="heroimage" />
+        </div>
+        <div class="results">
+          <div class="icon">
+            <img src="./images/icon-communities.svg" alt="communities" />
+          </div>
+          <h1 class="heading">1.4k+</h1>
+          <p class="content">communities formed</p>
+        </div>
+        <div class="results">
+          <div class="icon">
+            <img src="./images/icon-messages.svg" alt="messages" />
+          </div>
+          <h1 class="heading">2.7m+</h1>
+          <p class="content">messages <br />sent</p>
+        </div>
+      </section>
+      <section class="features container">
+        <div class="illustration">
+          <img src="./images/illustration-grow-together.svg" alt="grow-together" />
+        </div>
+        <h1 class="heading">Grow Together</h1>
+        <p class="content">
+          Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you
+          miss out on with a feedback form.
+        </p>
+      </section>
+      <section class="features container">
+        <div class="illustration">
+          <img src="./images/illustration-flowing-conversation.svg" alt="flowing-conversation" />
+        </div>
+        <h1 class="heading">Flowing Conversations</h1>
+        <p class="content">
+          You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural
+          flow.
+        </p>
+      </section>
+      <section class="features container">
+        <div class="illustration">
+          <img src="./images/illustration-your-users.svg" alt="Your users" />
+        </div>
+        <h1 class="heading">Your Users</h1>
+        <p class="content">
+          It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your
+          users can start chatting immediately.
+        </p>
+      </section>
+      <section class="container end">
+        <h1 class="heading">Ready To Build Your Community?</h1>
+        <button class="btn-primary">Get Started For Free</button>
       </section>
     </main>
-</body>
+    <footer>
+      <section class="newsletter container">
+        <h1 class="heading">NEWSLETTER</h1>
+        <p class="content">
+          To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email
+          address
+        </p>
+        <input type="text" class="input" />
+        <button class="btn-primary">Subscribe</button>
+      </section>
+      <section class="contact container">
+        <div>
+          <div class="logo2">
+            <img src="./images/logo.svg" alt="logo" />
+          </div>
+          <p class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+          </p>
+        </div>
+        <div>
+          <p>
+            <span><img src="./images/icon-phone.svg" alt="phone" /></span>Phone: +1-543-123-4567
+          </p>
+        </div>
+        <div>
+          <p>
+            <span><img src="./images/icon-email.svg" alt="email" /></span>example@company.com
+          </p>
+        </div>
+        <div class="social">
+          <div>
+            <img src="./images/icon-phone.svg" alt="facebook" />
+          </div>
+          <div>
+            <img src="./images/icon-phone.svg" alt="instagram" />
+          </div>
+          <div>
+            <img src="./images/icon-phone.svg" alt="twitter" />
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
