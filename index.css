@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --Pink: hsl(322, 100%, 66%);
+    --LightPink: hsl(321, 100%, 78%);
+    --LightRed: hsl(0, 100%, 63%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --VeryPaleBlue: hsl(207, 100%, 98%);
+}
+
+body{
+    background-color: var(--VeryPaleBlue);
+}
+
+.heading{
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.7rem;
+    font-weight: 750;
+}
+
+.content{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    margin: 1.6em 0;
+    font-weight: 600;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+.logo{
+    max-width: 150px;
+}
+
+.navbar{
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-secondary{
+    background-color: white;
+    color: var(--Pink);
+    border: 1px solid var(--Pink);
+    padding: 0.6em 1.7em;
+    border-radius: 1.9em;
+}
+
+.btn-primary{
+    background-color: var(--Pink);
+    color: white;
+    border: 0;
+    padding: 1.2em;
+    width: 70%;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 1.9em;
+    margin: 2em 0;
+}
+
+.hero{
+    padding: 5.5em 2.4em;
+}
+
+.hero > h1{
+    font-size: 2rem;
+}
+
+.mockups{
+   margin: 6em 0;
+}
+
+
